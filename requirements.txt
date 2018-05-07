@@ -1,0 +1,4 @@
+CouchDB==1.2
+cryptography==2.2.2
+Django==2.0.4
+django-filter==1.1.0
