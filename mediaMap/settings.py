@@ -24,7 +24,7 @@ SECRET_KEY = '#0(x50*s&^-gm)%aazl-!*zik5-8pgba*2j7o1^na_ib8j$cbl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','43.240.98.149', 'localhost','.catsnevercode.club']
+ALLOWED_HOSTS = ['127.0.0.1','43.240.98.156', 'localhost','.catsnevercode.club']
 
 
 # Application definition
