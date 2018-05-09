@@ -1,10 +1,9 @@
 import os
 from django.shortcuts import render
 from django.http import Http404, HttpResponseRedirect
-import couchdb
+#import couchdb
 import json
 from django.http import HttpResponse
-
 #server = couchdb.Server('http://admin:admin@127.0.0.1:5984')
 #restResource = server['map']
 
