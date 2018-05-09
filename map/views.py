@@ -5,16 +5,11 @@ import couchdb
 import json
 from django.http import HttpResponse
 
-
-from couchdb
-
 server = couchdb.Server('http://admin:admin@127.0.0.1:5984')
 restResource = server['map']
 
-
 def index(request):
     return render(request, 'map/index.html')
-
 
 def sentiment(request):
     return render(request, 'map/sentiment.html')
@@ -22,9 +17,8 @@ def sentiment(request):
 
 # RESTful api
 def sentiment_by_suburbs(request):
-    with open('map/static/map/res/melbourne_suburbs.geojson') as f:
-        data = json.load(f)
-        return HttpResponse(json.dumps(data), content_type='application/json')
+    data=restResource['1']
+    return HttpResponse(json.dumps(data), content_type='application/json')
 
 
 # RESTful api
