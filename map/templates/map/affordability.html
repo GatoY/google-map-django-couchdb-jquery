@@ -317,7 +317,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/affordability_proportions",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (data) {
             var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({

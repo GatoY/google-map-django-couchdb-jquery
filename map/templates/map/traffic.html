@@ -243,7 +243,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/traffic_by_hours",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (json) {
             var xList = [];
