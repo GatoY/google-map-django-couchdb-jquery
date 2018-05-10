@@ -78,7 +78,7 @@ CORS_ALLOW_HEADERS = (
     'x-csrftoken',
     'x-requested-with',
     'Pragma',
-    'Access-Control-Allow-Origin',
+    #'Access-Control-Allow-Origin',
 )
 ROOT_URLCONF = 'mediaMap.urls'
 
