@@ -50,7 +50,9 @@ def avengers(request):
 def avengers_data(request):
     with open('map/static/map/res/avengers.json') as f:
         data = json.load(f)
-        return HttpResponse(json.dumps(data), content_type='application/json')
+        response = HttpResponse(json.dumps(data), content_type='application/json')
+        response['Access-Control-Allow-Origin'] = '*'
+        return reponse
 
 
 def traffic(request):
