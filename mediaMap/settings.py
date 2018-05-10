@@ -55,9 +55,9 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ORIGIN_WHITELIST = ['*']
+CORS_ORIGIN_WHITELIST = ('*')
 
-CORS_ALLOW_METHODS = [
+CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
     'OPTIONS',
@@ -65,8 +65,8 @@ CORS_ALLOW_METHODS = [
     'POST',
     'PUT',
     'VIEW',
-]
-CORS_ALLOW_HEADERS = [
+)
+CORS_ALLOW_HEADERS = (
     'XMLHttpRequest',
     'X_FILENAME',
     'accept-encoding',
@@ -78,7 +78,8 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
     'Pragma',
-]
+    'Access-Control-Allow-Origin',
+)
 ROOT_URLCONF = 'mediaMap.urls'
 
 TEMPLATES = [
