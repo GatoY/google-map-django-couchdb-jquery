@@ -52,7 +52,7 @@ def avengers_data(request):
         data = json.load(f)
         response = HttpResponse(json.dumps(data), content_type='application/json')
         response['Access-Control-Allow-Origin'] = '*'
-        return reponse
+        return response
 
 
 def traffic(request):
