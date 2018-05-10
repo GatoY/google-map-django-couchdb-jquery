@@ -28,7 +28,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/avengers_data",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (data) {
             var heroList = [];

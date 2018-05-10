@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9c3130-de82-47d9-ada1-efff474a6dd6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/map/templates/map/base.html" afterPath="$PROJECT_DIR$/map/templates/map/base.html" />
-      <change beforePath="$PROJECT_DIR$/mediaMap/settings.py" afterPath="$PROJECT_DIR$/mediaMap/settings.py" />
+      <change beforePath="$PROJECT_DIR$/map/templates/map/avengers.html" afterPath="$PROJECT_DIR$/map/templates/map/avengers.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,12 +33,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map/templates/map/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="79" column="15" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+            <state relative-caret-position="117">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="echarts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map/static/map/js/echarts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="529" column="22" lean-forward="false" selection-start-line="529" selection-start-column="22" selection-end-line="529" selection-end-column="22" />
+              <folding>
+                <marker date="1525501119000" expanded="true" signature="482912:483099" ph="..." />
+                <marker date="1525501119000" expanded="true" signature="483162:483314" ph="..." />
+                <marker date="1525501119000" expanded="true" signature="2265097:2265106" ph="..." />
+                <marker date="1525501119000" expanded="true" signature="2265159:2265174" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avengers.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="avengers.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/map/templates/map/avengers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="170" column="13" lean-forward="false" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
+            <state relative-caret-position="246">
+              <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -108,17 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traffic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map/templates/map/traffic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,10 +135,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/map/templates/map/avengers.html" />
         <option value="$PROJECT_DIR$/map/views.py" />
         <option value="$PROJECT_DIR$/mediaMap/settings.py" />
         <option value="$PROJECT_DIR$/map/templates/map/base.html" />
+        <option value="$PROJECT_DIR$/map/templates/map/avengers.html" />
       </list>
     </option>
   </component>
@@ -192,6 +201,14 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -662,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map/templates/map/avengers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="13" lean-forward="false" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -690,8 +699,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map/templates/map/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="79" column="15" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+        <state relative-caret-position="117">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/static/map/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="529" column="22" lean-forward="false" selection-start-line="529" selection-start-column="22" selection-end-line="529" selection-end-column="22" />
+          <folding>
+            <marker date="1525501119000" expanded="true" signature="482912:483099" ph="..." />
+            <marker date="1525501119000" expanded="true" signature="483162:483314" ph="..." />
+            <marker date="1525501119000" expanded="true" signature="2265097:2265106" ph="..." />
+            <marker date="1525501119000" expanded="true" signature="2265159:2265174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/templates/map/avengers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding />
         </state>
       </provider>
