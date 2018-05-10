@@ -12,7 +12,6 @@ urlpatterns = [
     path('api/v1/sentiment_by_weekdays', views.sentiment_by_weekdays, name='sentiment_by_weekdays'),
     path('api/v1/sentiment_by_hours', views.sentiment_by_hours, name='sentiment_by_hours'),
     path('api/v1/word_cloud', views.word_cloud, name='word_cloud'),
-    # path('scenario2', views.scenario2, name='scenario2'),
     path('traffic', views.traffic, name='traffic'),
     path('api/v1/traffic_data', views.traffic_data, name='traffic_data'),
     path('api/v1/traffic_by_hours', views.traffic_by_hours, name='traffic_by_hours'),
