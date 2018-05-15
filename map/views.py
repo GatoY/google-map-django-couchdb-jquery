@@ -1,11 +1,13 @@
 import os
 from django.shortcuts import render
 from django.http import Http404, HttpResponseRedirect
-#import couchdb
+# import couchdb
 import json
 from django.http import HttpResponse
-#server = couchdb.Server('http://admin:admin@127.0.0.1:5984')
-#restResource = server['map']
+
+
+# server = couchdb.Server('http://admin:admin@127.0.0.1:5984')
+# restResource = server['map']
 
 
 def index(request):
@@ -50,7 +52,12 @@ def avengers(request):
 def avengers_data(request):
     with open('map/static/map/res/avengers.json') as f:
         data = json.load(f)
-        return HttpResponse(json.dumps(data), content_type='application/json')
+        response = HttpResponse(json.dumps(data), content_type='application/json')
+        #response['Access-Control-Allow-Origin'] = '*'
+        #response["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS'
+        #response["Access-Control-Max-Age"] = '1000'
+        #response["Access-Control-Allow-Headers"] = '*'
+        return response
 
 
 def traffic(request):

@@ -298,7 +298,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/word_cloud",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (json) {
             var dv = new DataSet.View().source(json["all_topics"]);
@@ -460,7 +460,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/sentiment_by_hours",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (json) {
             var hourList = [];
@@ -498,7 +498,7 @@
 
     $.ajax({
         url: API_DOMAIN + "/sentiment_by_weekdays",
-        headers: {'Access-Control-Allow-Origin': '*'},
+        headers: {'Access-Control-Allow-Origin': 'x-requested-with'},
         crossDomain: true,
         success: function (json) {
             var dayList = [];
